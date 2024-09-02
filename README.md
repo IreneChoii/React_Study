@@ -1,7 +1,4 @@
-# React-Project
-2024 웹프레임워크 React
-
-### React 환경세팅 For MAC OS
+# React 환경세팅 For MAC OS
 
 ## **1. NVM(Node Version Manager) 설치**
 ⭐️**참고 링크**⭐️ [ https://github.com/nvm-sh/nvm ] 
