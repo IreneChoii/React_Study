@@ -6,22 +6,32 @@
 
 ### How to install?
 **Step One** <br>
+```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash <br>
+```
+```
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash <br><br>
+```
 
 **Step Two** <br>
+```
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+```
 <br><br>
 
 **Example**
+```
 $ nvm install 16
 $ nvm use 16
 $ node -v
+```
 <br><br>
 
-**확인**
+**확인** <br>
+```
 nvm --version
+```
 
 <br><br>
 ## **2. Node.js 설치**
@@ -34,12 +44,16 @@ nvm --version
 ## **3. yarn 설치**
 
 ### How to install?
+```
 brew update
 brew install yarn
 yarn config set prefix ~/.yarn
+```
 
 **확인**
+```
 yarn --version
+```
 
 
 <br><br>
