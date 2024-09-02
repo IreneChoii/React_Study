@@ -1,4 +1,5 @@
 # React 환경세팅 For MAC OS
+<br><br><br>
 
 ## **1. NVM(Node Version Manager) 설치**
 ⭐️**참고 링크**⭐️ [ https://github.com/nvm-sh/nvm ] 
@@ -38,7 +39,7 @@ yarn --version
 
 
 <br><br>
-**4. 리액트 프로젝트 생성**
+## **4. 리액트 프로젝트 생성**
 ![image](https://github.com/user-attachments/assets/b74a0a96-9bbd-40e7-81f6-1fc6205fb7af)
 ![image](https://github.com/user-attachments/assets/94f131b1-5675-4f95-92e5-29a6dd7eadae)
 
