@@ -1,5 +1,5 @@
-# React 환경세팅 For MAC OS
-<br><br><br>
+# React 환경세팅 for M2
+<br><br>
 
 ## **1. NVM(Node Version Manager) 설치**
 ⭐️**참고 링크**⭐️ [ https://github.com/nvm-sh/nvm ] 
