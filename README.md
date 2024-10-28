@@ -22,15 +22,20 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 **Example**
 ```
-$ nvm install 16
-$ nvm use 16
-$ node -v
+$ nvm install 20    # Node.js 20 LTS 버전 설치
+$ npm use 20        # Node.js 20 버전 사용
+
+$ npm install -g npm@10.9.0
 ```
 <br>
 
-**확인** <br>
+**설치 및 버전 확인** <br>
 ```
-nvm --version
+$ nvm --version
+
+$ node -v
+
+$ npm -v
 ```
 
 <br><br>
