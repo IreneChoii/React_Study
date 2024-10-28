@@ -63,8 +63,16 @@ yarn --version
 
 <br><br>
 ## **4. 리액트 프로젝트 생성**
-![image](https://github.com/user-attachments/assets/b74a0a96-9bbd-40e7-81f6-1fc6205fb7af)
-![image](https://github.com/user-attachments/assets/94f131b1-5675-4f95-92e5-29a6dd7eadae)
+
+### Visual Studio Code
+```
+$ npx create-react-app [프로젝트 이름]
+```
+
+### IntelliJ
+<img src="https://github.com/user-attachments/assets/b74a0a96-9bbd-40e7-81f6-1fc6205fb7af" width="60%">
+<img src="https://github.com/user-attachments/assets/94f131b1-5675-4f95-92e5-29a6dd7eadae" width="60%">
+
 
 
 
