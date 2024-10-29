@@ -275,7 +275,7 @@ function App() {
 <br><br><br>
 
 ## useState
- // ES6 destructuring 문법
+* ES6 destructuring 문법
  
  ```jsx
  function App() {
@@ -357,7 +357,14 @@ function App() {
 1. 변수 대신 쓰는 데이터 저장공간
 2. useState()를 사용해 만들어야함
 3. 문자, 숫자, array, object 모두 저장가능
+- 변경이 자주 필요한 부분에 사용!
 
 #### state 장점
 - state에 데이터를 저장하면, state기 변경될 때, HTML이 자동으로 rendering 됨
 - 즉, 새로고침을 하지 않더라도 변경사항이 smooth하게 반영됨
+
+## 📍Tip📍
+Terminal의 Warning을 없애고 싶다면?
+```
+/* eslint-disable */
+```

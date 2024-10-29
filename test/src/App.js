@@ -3,8 +3,8 @@ import './App.css';
 
 function App() {
 
-      // ES6 destructuring 문법
-      let [title,changeTitle] = useState(['개발 언어 추천', '개발 툴 추천']); // [state 데이터,state 데이터 변경 함수]
+      let [title, changeTitle] = useState(['개발 언어 추천', '개발 툴 추천', '개발1', '개발2']);
+      let [thumb, changeThumb] = useState(0);
 
       return (
             <div className="App">
@@ -15,7 +15,7 @@ function App() {
                   </div>
                   <div className='list'>
                         <h3>
-                              { title }
+                              { title[0] } <span onClick={ () => { return thumb[1]+1; } }> 👍🏻 </span> {thumb}
                         </h3>
                         <p>
                               10월 29일 화요일 발행
@@ -24,7 +24,7 @@ function App() {
                   </div>
                   <div className='list'>
                         <h3>
-                              { title[0] }
+                              { title[1] }
                         </h3>
                         <p>
                               11월 3일 화요일 발행
@@ -33,10 +33,19 @@ function App() {
                   </div>
                   <div className='list'>
                         <h3>
-                              { title[1] }
+                              { title[2] }
                         </h3>
                         <p>
                               11월 12일 화요일 발행
+                        </p>
+                        <hr />
+                  </div>
+                  <div className='list'>
+                        <h3>
+                              { title[3] }
+                        </h3>
+                        <p>
+                              11월 28일 화요일 발행
                         </p>
                         <hr />
                   </div>
