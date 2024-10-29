@@ -1,7 +1,13 @@
 # React 환경세팅 for M2
+### 📋 목차
+1. [NVM(Node Version Manager) 설치](#1-nvmnode-version-manager-설치)
+2. [Node.js 설치](#2-nodejs-설치)
+3. [yarn 설치](#3-yarn-설치)
+4. [React 프로젝트 생성](#4-리액트-프로젝트-생성)
+
 <br><br>
 
-## **1. NVM(Node Version Manager) 설치**
+## 1. NVM(Node Version Manager) 설치
 ⭐️**참고 링크**⭐️ [ https://github.com/nvm-sh/nvm ] 
 
 ### How to install?
@@ -40,30 +46,31 @@ $ npm -v
 ```
 
 <br><br>
-## **2. Node.js 설치**
+## 2. Node.js 설치
 
 ### How to install?
-⭐️**다운로드 링크**⭐️ [ https://nodejs.org/en/ ]
+⭐️**다운로드 링크**⭐️ <br>
+[ https://nodejs.org/en/ ]
 
 
 <br><br>
-## **3. yarn 설치**
+## 3. yarn 설치
 
 ### How to install?
 ```
-brew update
-brew install yarn
-yarn config set prefix ~/.yarn
+$ brew update
+$ brew install yarn
+$ yarn config set prefix ~/.yarn
 ```
 
 **확인**
 ```
-yarn --version
+$ yarn --version
 ```
 
 
 <br><br>
-## **4. 리액트 프로젝트 생성**
+## 4. 리액트 프로젝트 생성
 
 ### Visual Studio Code
 ```
