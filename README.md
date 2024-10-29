@@ -165,22 +165,24 @@ $ npm start
 
 <img src="package_json.png" width="50%">
 
-<br><br>
+<br><br><br>
 
 ## JSX 문법
 
-1. 태그에 class를 주고 싶으면? <br>
+### 1. 태그에 class를 주고 싶으면? <br>
 
-```js
+```jsx
 <div className="클래스명">
 ```
 
-<br>
+<br><br>
 
-2. React에서 Data Binding 쉽게 하는 방법 <br>
+### 2. React에서 Data Binding 쉽게 하는 방법 <br>
 
 : { ***변수명*** } | 괄호 안에 변수 넣어주기
+
 : { ***함수명()*** } | 괄호 안에 함수 넣어주기
+
 ```jsx
 function App() {
 
@@ -205,6 +207,7 @@ function App() {
 <br>
 
 : { img src={***이미지명***} } | 괄호 안에 이미지 넣어주기
+
 ```jsx
 import logo from './logo.svg' // 이미지 import
 
@@ -219,11 +222,15 @@ function App() {
       ); 
 }
 ```
+
 <br>
 
 : src / id / href 등의 속성에도 데이터바인딩 가능!
 
-3. JSX에서 style 속성 집어넣을 때
+<br><br>
+
+### 3. JSX에서 style 속성 집어넣을 때
+
 : style={ object 자료형으로 만든 스타일 }
 
 ```jsx
@@ -237,3 +244,120 @@ function App() {
       </div>
 }
 ```
+
+```jsx
+function App() {
+
+      let posts = "React 공부 방법 1"
+
+      let styles = {color: 'pink', fontSize : '20px'}
+
+      function 함수() {
+            return 100;
+      }
+
+      return (
+            <div className="App">
+                  <div className='black-nav'>
+                        <div>React 개발 Blog</div>
+                  </div>
+                  <h4> {posts} </h4>
+                  <h4> {함수()} </h4>
+                  <div style={ {color: 'skyblue', fontSize : '20px'} }> 이건 태그 데이터 바인딩 </div>
+                  <h4 style={ styles }> 이건 속성 데이터 바인딩</h4>
+            </div>
+      );
+}
+```
+<img src="data-binding.png" width="55%"/>
+
+
+<br><br><br>
+
+## useState
+ // ES6 destructuring 문법
+ 
+ ```jsx
+ function App() {
+
+      // ES6 destructuring 문법
+      let [title,changeTitle] = useState('개발 언어 추천'); // [state 데이터,state 데이터 변경 함수]
+
+      return (
+            <div className="App">
+                  <div className='black-nav'>
+                        <div>
+                              개발 블로그
+                        </div>
+                  </div>
+                  <div className='list'>
+                        <h3>
+                              { title }
+                        </h3>
+                        <p>
+                              10월 29일 화요일 발행
+                        </p>
+                        <hr />
+                  </div>
+            </div>
+      )
+ }
+```
+<img src="useState().png" width="55%"/>
+
+<br><br>
+
+```jsx
+function App() {
+
+      // ES6 destructuring 문법
+      let [title,changeTitle] = useState(['개발 언어 추천', '개발 툴 추천']); // [state 데이터,state 데이터 변경 함수]
+
+      return (
+            <div className="App">
+                  <div className='black-nav'>
+                        <div>
+                              개발 블로그
+                        </div>
+                  </div>
+                  <div className='list'>
+                        <h3>
+                              { title }
+                        </h3>
+                        <p>
+                              10월 29일 화요일 발행
+                        </p>
+                        <hr />
+                  </div>
+                  <div className='list'>
+                        <h3>
+                              { title[0] }
+                        </h3>
+                        <p>
+                              11월 3일 화요일 발행
+                        </p>
+                        <hr />
+                  </div>
+                  <div className='list'>
+                        <h3>
+                              { title[1] }
+                        </h3>
+                        <p>
+                              11월 12일 화요일 발행
+                        </p>
+                        <hr />
+                  </div>
+            </div>
+      )
+}
+```
+<img src="useState()_2.png" width="55%">
+
+#### state
+1. 변수 대신 쓰는 데이터 저장공간
+2. useState()를 사용해 만들어야함
+3. 문자, 숫자, array, object 모두 저장가능
+
+#### state 장점
+: state에 데이터를 저장하면, state기 변경될 때, HTML이 자동으로 rendering 됨
+
