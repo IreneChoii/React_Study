@@ -117,19 +117,19 @@ $ npm start
 <img src="image.png" width="50%">
 
 ### node_modules 폴더
-: 라이브러리를 전부 모아둔 폴더
+: 라이브러리를 전부 모아둔 폴더 <br>
 <img src="node_modules.png" width="50%">
 
 ### public 폴더
-: static 파일 보관함 (public 안의 파일들은 compile을 할 때, 압축이 되지 않음)
+: static 파일 보관함 (public 안의 파일들은 compile을 할 때, 압축이 되지 않음) <br>
 <img src="public.png" width="50%">
 
 ### src 폴더
-: source code 보관함
+: source code 보관함 <br>
 <img src="src.png" width="50%">
 
 ### package.json
-: 내가 설치한 라이브러리(및 버전) 목록
+: 내가 설치한 라이브러리(및 버전) 목록 <br>
 <img src="package_json.png" width="50%">
 
 <br><br>
@@ -137,11 +137,12 @@ $ npm start
 ## JSX 문법
 
 1. 태그에 class를 주고 싶으면?
-```JSX
+```html
 <div className="클래스명">
 ```
+<br>
 
 2. React에서 Data Binding 쉽게 하는 방법
 : { *변수명* } | 괄호 안에 변수명 넣어주기
-<img src="{}" width="50%">
+<img src="{}.png" width="60%">
 

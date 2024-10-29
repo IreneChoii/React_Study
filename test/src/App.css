@@ -3,7 +3,11 @@
 }
 
 body {
-      font-family: 'freesentation';
+      font-family: 'Freesentation-7Bold';
+}
+
+h4 {
+      font-family: 'Freesentation-5Medium';
 }
 
 .black-nav {
