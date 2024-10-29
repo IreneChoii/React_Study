@@ -1,10 +1,13 @@
+# 전체 목차
+[React 환경세팅](#react-환경세팅-for-m2)
+[React에 대한 지식](#react-궁금증-해결)
+
 # React 환경세팅 for M2
 ### 📋 목차
 1. [NVM(Node Version Manager) 설치](#1-nvmnode-version-manager-설치)
 2. [Node.js 설치](#2-nodejs-설치)
 3. [yarn 설치](#3-yarn-설치)
 4. [React 프로젝트 생성](#4-리액트-프로젝트-생성)
-
 <br><br>
 
 ## 1. NVM(Node Version Manager) 설치
@@ -52,6 +55,9 @@ $ npm -v
 ⭐️**다운로드 링크**⭐️ <br>
 [ https://nodejs.org/en/ ]
 
+### 설치하는 이유?
+**create-react-app** 라이브러리 때문
+→ node.js를 설치하면 "**npm**"을 사용할 수 있음
 
 <br><br>
 ## 3. yarn 설치
@@ -103,6 +109,39 @@ $ npm start
 <img src="https://github.com/user-attachments/assets/b74a0a96-9bbd-40e7-81f6-1fc6205fb7af" width="50%">
 <img src="https://github.com/user-attachments/assets/94f131b1-5675-4f95-92e5-29a6dd7eadae" width="50%">
 
+<br><br><br>
 
 
+# React 궁금증 해결
+### App.js / index.html / index.js의 관계
+<img src="image.png" width="50%">
+
+### node_modules 폴더
+: 라이브러리를 전부 모아둔 폴더
+<img src="node_modules.png" width="50%">
+
+### public 폴더
+: static 파일 보관함 (public 안의 파일들은 compile을 할 때, 압축이 되지 않음)
+<img src="public.png" width="50%">
+
+### src 폴더
+: source code 보관함
+<img src="src.png" width="50%">
+
+### package.json
+: 내가 설치한 라이브러리(및 버전) 목록
+<img src="package_json.png" width="50%">
+
+<br><br>
+
+## JSX 문법
+
+1. 태그에 class를 주고 싶으면?
+```JSX
+<div className="클래스명">
+```
+
+2. React에서 Data Binding 쉽게 하는 방법
+: { *변수명* } | 괄호 안에 변수명 넣어주기
+<img src="{}" width="50%">
 
