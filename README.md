@@ -181,7 +181,7 @@ $ npm start
 
 : { ***변수명*** } | 괄호 안에 변수 넣어주기
 : { ***함수명()*** } | 괄호 안에 함수 넣어주기
-```js
+```jsx
 function App() {
 
       let posts = "React 공부 방법 1"
@@ -205,7 +205,7 @@ function App() {
 <br>
 
 : { img src={***이미지명***} } | 괄호 안에 이미지 넣어주기
-```js
+```jsx
 import logo from './logo.svg' // 이미지 import
 
 function App() {
@@ -226,7 +226,7 @@ function App() {
 3. JSX에서 style 속성 집어넣을 때
 : style={ object 자료형으로 만든 스타일 }
 
-```js
+```jsx
 function App() {
       let posts = "reactReact"
 
