@@ -15,7 +15,7 @@ function App() {
                   </div>
                   <div className='list'>
                         <h3>
-                              { title[0] } <span onClick={ () => { return thumb[1]+1; } }> 👍🏻 </span> {thumb}
+                              { title[0] } <span onClick={ () => { return changeThumb+1; } }> 👍🏻 </span> {thumb}
                         </h3>
                         <p>
                               10월 29일 화요일 발행

@@ -363,6 +363,8 @@ function App() {
 - state에 데이터를 저장하면, state기 변경될 때, HTML이 자동으로 rendering 됨
 - 즉, 새로고침을 하지 않더라도 변경사항이 smooth하게 반영됨
 
+<br><br>
+
 ## 📍Tip📍
 Terminal의 Warning을 없애고 싶다면?
 ```
