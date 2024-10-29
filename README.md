@@ -206,7 +206,7 @@ function App() {
 
 <br>
 
-: { img src={***이미지명***} } | 괄호 안에 이미지 넣어주기
+: { img src = { ***이미지명*** } } | 괄호 안에 이미지 넣어주기
 
 ```jsx
 import logo from './logo.svg' // 이미지 import
@@ -225,7 +225,7 @@ function App() {
 
 <br>
 
-: src / id / href 등의 속성에도 데이터바인딩 가능!
+: **src** / **id** / **href** 등의 속성에도 데이터바인딩 가능!
 
 <br><br>
 
@@ -359,5 +359,5 @@ function App() {
 3. 문자, 숫자, array, object 모두 저장가능
 
 #### state 장점
-: state에 데이터를 저장하면, state기 변경될 때, HTML이 자동으로 rendering 됨
-
+- state에 데이터를 저장하면, state기 변경될 때, HTML이 자동으로 rendering 됨
+- 즉, 새로고침을 하지 않더라도 변경사항이 smooth하게 반영됨
