@@ -5,7 +5,7 @@ function App() {
 
       let [title, changeTitle] = useState(['개발 언어 추천', '개발 툴 추천', '개발1', '개발2']);
       let [thumb, changeThumb] = useState(0);
-
+      changeThumb( thumb + 1);
       return (
             <div className="App">
                   <div className='black-nav'>
